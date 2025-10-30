@@ -1,0 +1,85 @@
+Intrusion Detection System(IDS) hat die Aufgabe für das System gefährliche und/oder ungewollten Datenverkehr zu überwachen und angemessen darauf zu reagieren.
+- sammeln in Log-Dateien möglich
+Reagieren auf "Angriffe" spricht man von Intrusion Prevention System(IPS) 
+
+Regeln: 
+- Aufbau
+![[Pasted image 20250118125629.png]]
+
+Mögliche Aktionen (IDS, IPS):
+![[Pasted image 20250118125720.png]]
+
+Mögliche  Regel-Optionen:
+![[Pasted image 20250118125800.png]]
+
+Beispiel Regeln:
+
+![[Pasted image 20250122142025.png]]
+
+- ICMP-Pakete mit aktiver echo-Anfragen (Typ 8: "Ping")
+	- ``alert icmp (msg: "ICMP-Ping"; itype: 8; sid: 1;)`
+- Aus- und eingehender FTP-Datenverkehr im Heimnetz auf dem Port 21:
+	- `alert tcp $HOME_NET any -> any 21 (msg: "Outgoing FTP"; sid: 10;)`
+	- `alert tcp any 21 -> $HOME_NET any (msg: "Incomming FTP"; sid: 11;)`
+- TCP-Pakete mit Schlagwörtern "Mittweida", "Chemnitz" oder "libgen 
+	- `alert tcp (msg: "Schlagwort: mittweida"; content: "Mittweida"; sid: 20;)`
+	- `alert tcp (msg: "Schlagwort: chemnitz"; content: "Chemnitz"; sid: 21;)`
+	- `alert tcp (msg: "Schlagwort: libgen"; content: "libgen"; sid: 22;)`
+- HTTP-Datenverkehr miot dem Schlagwort "Mittweida"
+	- `alert http (msg: "HTTP: Mittweida"; content: "Mittweida"; sid: 30;)`
+
+Starten von Snort:
+- `snort -c configuration -R rules -i interface -k none -s 65535 -A alert_fast`
+	- -i interface: Das Interface auf dem mitgehört werden soll (ggf. anpassen, z. B. enp0s3)
+	- -k none: Deaktiviert die Evaluierung von Prüfsummen (schnellere Verarbeitung)
+	- -s 65535: Max. Größe von zu analysierenden Paketen (auch große Pakete untersuchen)
+	- -A alert_fast: Zeigt Alerts in Kurzform im Terminal an
+	- -e: Fügt zusätzliche Informationen aus der OSI-Schicht 2 (MAC-Adressen, etc.) hinzu
+	- -U: Verwendet die unabhängige UTC-Zeit anstatt der Lokalzeit
+	- -y: Fügt den Log-Einträgen die Jahreszahl hinzu
+
+#### Intrusion Detection Systeme
+- Das am weitesten verbreitete IDS ist Snort. Ein netzwerkbasiertes Signatur prüfendes System. Das vorgegebene Signaturen verwendet um bösartigen Traffic zu erkennen. Snort bringt seine eigene Beschreibungssprache mit, um solche Signaturen zu formulieren
+
+**Snort Basics:**
+- echtzeit Paketanalyse in IP Netzwerken 
+- kann angriffe wie Pufferoverflow, Stealth-Port-Scans, CGI-Angriffe (Common Gateway Interface), SMB-Tests (Server Message Block)...
+
+**Oinkmaster:**
+ist ein Tool, dass automatisch Snort Rules von der
+Snort Homepage holt und die lokalen Regeln aktualisiert.
+
+**verschiedene Arbeitsweisen:**
+A) Sniffer Mode (Monitor Mode)
+B) Packet Logger (Monitor Mode)
+C) Network Intrusion Detection (Monitor Mode)
+D) Network Intrusion Prevention (Inline Mode)
+
+Positionierung von Snort als IDS :
+- im Monitor Mode hinter Firewall:
+	- kann nicht jeden Angriff erkennen, da einige Pakete von Firewall Blockiert
+	![[Pasted image 20250122140723.png]]
+
+- vor der firewall
+	- alle Angriffe von außen -> Signaturen erkennbar
+	![[Pasted image 20250122140905.png]]
+
+Positionierung als IPS:
+- im Inline Mode -> direkter Eingriff in den Datenverkehr
+Snort überwacht allen Netzwerkverkehr und wird auf Grund der eingetragenen Snort Rules Datenverkehr blockieren.
+
+![[Pasted image 20250122141240.png]]
+
+
+Architektur: 
+- **Packet Decoder/Sniffer:** Bereitet Pakete für die Verarbeitung vor.
+- **Präprozessoren:** (1) Daten für die Detection Engine vorbereiten; (2) Erkennung von Anomalien in Paket-Headern; (3) Paket Defragmentierung, (4) Decodes HTTP URI; (5) Zusammenbau von TCP-Streams.
+- **Detection Engine:** Wichtigster Part. Wendet Regeln auf Pakete an.
+- **Log- und Alertsystem:** Erzeugt Warn- und Protokollnachrichten.
+- **Ausgabemodule:** Verarbeitet Warnungen und Logs und generiert die endgültige Ausgabe.
+![[Pasted image 20250122141428.png]]
+
+Dataflow:
+![[Pasted image 20250122141856.png]]
+
+

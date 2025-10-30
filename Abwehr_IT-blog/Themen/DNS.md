@@ -1,0 +1,72 @@
+#### Angriffe auf den Session Layer
+Protokolle im Session Layer
+- DNS
+- SDP
+- SIP
+- NETBIOS
+- RPC
+- RIP ([[Routing]])
+- OSPF
+#### DNS
+Übersetzt Namensanforderungen in IP Adressen. Per UDP auf Port 53 zum Namensserver gesendet. Fordert auch Unterstützung von TCP Anfragen.
+
+**Autoritatives DNS:**
+	Aktualisierungsmechanismus zum Verwalten öffentlicher DNS-Namen.
+	Hat letztendlich Autorität über eine Domain -> rekursiven DNS Servern Antworten mit den IP-Adressinformationen . 
+
+**Rekursives DNS:**
+	Clients stellen nicht direkt Abfragen an autoritative DNS-Services -> Stattessen fragen sie Resolver ab (rekursiver DNS Service). Wenn DNS-Referenz bereits im Cache eines rekursiven DNS -> kann dieser Quellen (IP-Informationen) zurückgeben. Andernfalls leitet er Anfrage an Autoritative DNS
+
+![[Pasted image 20241113152026.png]]
+Bevor der Host jedoch DNS Anfragen an einen DNS Server sendet prüft er
+ob es keine Eintragung in der lokalen Hosts Datei am Clienten gibt:
+Fundstelle Hosts Datei:
+- Unixoide:
+	/etc/hosts
+- Windows ab NT:
+	Windows/system32/drivers/etc/hosts
+#### DNS Zone und DNS im Untenehmen
+Im **Domain Name System (DNS)** bezeichnet eine **Zone** den Teil des Domänenbaums, für den ein **Nameserver (NS)** zuständig ist. Ein **Primary Nameserver** verwaltet die Zone und speichert die **DNS Resource Records** in einer **Zonendatei**. Zur Ausfallsicherheit werden Zonen per **Zonentransfer** an **Secondary Nameserver** (Backup-Server) gespiegelt.
+
+nslookup
+ server <DNS/Domain>
+ set type=any
+ ls -d target (z. B. 8.8.8.8)
+ 
+Unternehmen nutzen oft eigene DNS-Server, die häufig als Master-Slave-System (z. B. mit BIND) konfiguriert sind. Ein Primary Master DNS-Server verwaltet die DNS-Zonen und überträgt diese an Secondary Slave-Server. DNS-Zonen können in Subdomains aufgeteilt werden.
+#### Angriffe DNS
+ haben den Zweck die Zuordnung zwischen einem Domainnamen und der zugehörigen IP-Adresse zu fälschen. Dies dient dazu, Datenverkehr unbemerkt zu einem anderen Computer zu lenken, zum Beispiel um einen Phishing- oder Pharming-Angriff durchzuführen. Wird der Datenverkehr auf ein nicht erreichbares Ziel gelenkt, kann hiermit ein Denial-ofService-Angriff durchgeführt werden. Die folgenden Begriffe entspringen unterschiedlichen Angriffsmethoden, verfolgen jedoch denselben Zweck:
+
+- Cache Poisoning (deutsch Temporärspeichervergiftung) bezeichnet Angriffe, bei denen gefälschte DNS Records in den DNS-Cache des Opfers eingeschleust werden. 
+- DNS-Spoofing bezeichnet Angriffe, bei denen mittels IP-Spoofing gefälschte DNS Records gesendet werden.
+- DNS-Hijacking ist ein verwandter Angriff, bei dem ein DNS-Resolver falsche Antworten zurückgibt.
+**Beispiel:**
+Änderung von Einstellungen für DNS-Einträge (meistens bei der
+Domänenregistrierungsstelle > Resolver), um auf einen falschen DNS-Server oder eine
+Domäne zu verweisen.
+- Der Benutzer versucht, auf eine legitime Website www.legalsite.com zuzugreifen
+- Der Benutzer wird zu einer gefälschten Site weitergeleitet, die von Hackern kontrolliert wird und der realen sehr ähnlich sieht.
+Auswirkung:
+- Hacker erhalten Benutzernamen, Passwörter und Kreditkarteninformationen
+
+Tool: Ettercap
+##### DNS Tunneling 
+- Verwendet DNS als verdeckten Kommunikationskanal (Covert Channel) zur Umgehung der Firewall 
+-  Angreifer tunneln andere Protokolle wie SSH, TCP oder Web innerhalb von DNS 
+-  Ermöglicht es Angreifern, gestohlene Daten oder Tunnel-IP-Verkehr ohne Erkennung weiterzuleiten
+- Ein DNS-Tunnel kann als vollständiger Fernsteuerungskanal für einen kompromittierten internen Host verwendet werden. 
+- Wird auch zur Umgehung von Captive-Portalen verwendet, um die Bezahlung von Wi-Fi-Diensten zu vermeiden 
+Auswirkung:
+- Datenexfiltration kann durch den Tunnel erfolgen
+##### Reflected DNS Attacke
+Angreifer senden Tausende von Anfragen an verschiedene DNS Server, während sie ihre eigene IP-Adresse fälschen und die Quelladresse des Opfers verwenden. Wenn diese DNS-Anfragen beantwortet werden, so werden sie alle an das Opfer selbst „zurück“ geleitet. Dies stellt eine Form der DDoS Attacke beim Opfer dar
+##### Fast flux DNS 
+Fast Flux ist eine DNS-Technik, die von Botnetzen verwendet wird, um Phishing- und Malware-Websites hinter einem sich ständig ändernden Netzwerk kompromittierter Hosts zu verbergen, die als Proxys fungieren. Es kann sich auch auf die Kombination aus Peer-to-Peer-Netzwerk, verteiltem Command and Control (C&C Server), webbasiertem Load Balancing und Proxy-Redirection beziehen, die dazu verwendet wird, Malware-Netzwerke resistenter gegen Erkennung und Gegenmaßnahmen zu machen. Der Storm Worm ist eine der ersten Malware-Varianten, die diese Technik 2007 eingesetzt haben
+##### Absicherung und Abwehr von Angriffen auf DNS 
+- Benutzung von DNSSEC für Verbindungen verhindert Sniffing. − 
+- Benutzung von TSIG (Transaction SIGnature), Sicherstellung der Authentizität von DNS-Partnern und der Datenintegrität bei Transaktionen.  (public key verfahren)
+- Deaktivierung von DNS Zone Transfer sofern möglich.
+- Nutzung von Response Rate Limiting (RRL), welches in den BIND Nameserver eingebaut ist, um die Amplifizierung von Anfragen zu erschweren. 
+- Ist das Unternehmen nicht ausdrücklich auf offene rekursive Server angewiesen, ist es ratsam, besser auf sie zu verzichten. DNS-Anfragen an rekursive Server sollten ausschließlich für interne IP-Adressen zulässig und für autorisierte Nutzer beschränkt sein.
+
+Wenn ein Zonen Transfer nicht abgeschaltet werden kann, sollten Techniken genutzt werden um unberechtigte Zugriffe zu unterbinden. Eine DNS-Zonentransfer ist eine Technik die häufig von Slave-Nameservern zum Abfragen von Master-DNS-Servern verwendet wird. Angreifer können versuchen, einen DNS-Zonentransfer durchzuführen, um die Netzwerktopologie zu erfahren. Um solche unberechtigten Abfragen zu vermeiden, können die Abfrageberechtigten eingeschränkt werden, in dem die zulässigen IP-Adressen, die solche Anforderungen stellen können registriert werden

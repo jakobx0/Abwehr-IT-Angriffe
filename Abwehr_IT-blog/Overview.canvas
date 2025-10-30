@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"2cfb7802c315349d","type":"file","file":"Abwehr_IT-blog/pdf/84433547__de__Web.png","x":-620,"y":320,"width":400,"height":187},
+		{"id":"74dda98fb1fa3fa1","type":"file","file":"Abwehr_IT-blog/Praktikum/1. - 2.Netzwerkprotokollanalyse mit Wireshark.md","x":120,"y":-80,"width":400,"height":400},
+		{"id":"7e5cde75e6582c1f","type":"file","file":"Abwehr_IT-blog/Themen/1. Begriffsbestimmung und Vorgehensmodell.md","x":-560,"y":-620,"width":465,"height":780}
+	],
+	"edges":[
+		{"id":"dd1828e9163af717","fromNode":"2cfb7802c315349d","fromSide":"right","toNode":"74dda98fb1fa3fa1","toSide":"bottom","color":"3"}
+	]
+}
