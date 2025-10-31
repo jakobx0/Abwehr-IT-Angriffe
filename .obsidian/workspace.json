@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "fdacf473b95f2b8b",
@@ -163,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,7 +177,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d4fc2fdd3cd54bb",
+  "active": "da9563eb10e67700",
   "lastOpenFiles": [
     "Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md",
     "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
