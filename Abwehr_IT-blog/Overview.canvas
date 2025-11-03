@@ -1,12 +1,19 @@
 {
 	"nodes":[
-		{"id":"2cfb7802c315349d","type":"file","file":"Abwehr_IT-blog/pdf/84433547__de__Web.png","x":520,"y":360,"width":400,"height":187},
-		{"id":"74dda98fb1fa3fa1","type":"file","file":"Abwehr_IT-blog/Praktikum/1. - 2.Netzwerkprotokollanalyse mit Wireshark.md","x":360,"y":-430,"width":400,"height":400},
-		{"id":"1ca915f4e26cb15a","x":-560,"y":-140,"width":465,"height":400,"type":"file","file":"Abwehr_IT-blog/Themen/2. Beweisaufnahme im Netzwerk.md"},
-		{"id":"63d6977388780c78","x":-560,"y":320,"width":465,"height":400,"type":"file","file":"Abwehr_IT-blog/Themen/3. Capturing Tools - Wireshark und BPF Syntax.md"},
-		{"id":"7e5cde75e6582c1f","type":"file","file":"Abwehr_IT-blog/Themen/1. Begriffsbestimmung und Vorgehensmodell.md","x":-560,"y":-580,"width":465,"height":390}
+		{"id":"1ca915f4e26cb15a","type":"file","file":"Abwehr_IT-blog/Themen/2. Beweisaufnahme im Netzwerk.md","x":-560,"y":-140,"width":465,"height":400},
+		{"id":"63d6977388780c78","type":"file","file":"Abwehr_IT-blog/Themen/3. Capturing Tools - Wireshark und BPF Syntax.md","x":-560,"y":320,"width":465,"height":400},
+		{"id":"7e5cde75e6582c1f","type":"file","file":"Abwehr_IT-blog/Themen/1. Begriffsbestimmung und Vorgehensmodell.md","x":-560,"y":-580,"width":465,"height":390},
+		{"id":"2e73bab6496a929a","type":"file","file":"Abwehr_IT-blog/Themen/4. IP-Traceroute.md","x":-560,"y":780,"width":465,"height":400},
+		{"id":"2cfb7802c315349d","type":"file","file":"Abwehr_IT-blog/pdf/84433547__de__Web.png","x":840,"y":-190,"width":400,"height":187},
+		{"id":"e39c9e324eb43921","type":"file","file":"Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md","x":220,"y":80,"width":400,"height":400},
+		{"id":"74dda98fb1fa3fa1","type":"file","file":"Abwehr_IT-blog/Praktikum/1. - 2.Netzwerkprotokollanalyse mit Wireshark.md","x":220,"y":-540,"width":400,"height":400}
 	],
 	"edges":[
-		{"id":"dd1828e9163af717","fromNode":"2cfb7802c315349d","fromSide":"right","toNode":"74dda98fb1fa3fa1","toSide":"bottom","color":"3"}
+		{"id":"ace29eccffdd6790","fromNode":"74dda98fb1fa3fa1","fromSide":"right","toNode":"2cfb7802c315349d","toSide":"left","color":"3"},
+		{"id":"87d9d780d7159636","fromNode":"1ca915f4e26cb15a","fromSide":"right","toNode":"74dda98fb1fa3fa1","toSide":"left","color":"4"},
+		{"id":"5bf964c883614cc8","fromNode":"1ca915f4e26cb15a","fromSide":"right","toNode":"e39c9e324eb43921","toSide":"left","color":"4"},
+		{"id":"34d37f1463095335","fromNode":"1ca915f4e26cb15a","fromSide":"right","toNode":"2cfb7802c315349d","toSide":"left","color":"3"},
+		{"id":"81794a26003bbd0a","fromNode":"63d6977388780c78","fromSide":"right","toNode":"74dda98fb1fa3fa1","toSide":"left","color":"4"},
+		{"id":"b19bd85edfc7ea53","fromNode":"63d6977388780c78","fromSide":"right","toNode":"e39c9e324eb43921","toSide":"left","color":"4"}
 	]
 }
