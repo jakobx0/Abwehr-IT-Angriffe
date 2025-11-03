@@ -4,9 +4,10 @@
 		{"id":"63d6977388780c78","type":"file","file":"Abwehr_IT-blog/Themen/3. Capturing Tools - Wireshark und BPF Syntax.md","x":-560,"y":320,"width":465,"height":400},
 		{"id":"7e5cde75e6582c1f","type":"file","file":"Abwehr_IT-blog/Themen/1. Begriffsbestimmung und Vorgehensmodell.md","x":-560,"y":-580,"width":465,"height":390},
 		{"id":"2e73bab6496a929a","type":"file","file":"Abwehr_IT-blog/Themen/4. IP-Traceroute.md","x":-560,"y":780,"width":465,"height":400},
-		{"id":"2cfb7802c315349d","type":"file","file":"Abwehr_IT-blog/pdf/84433547__de__Web.png","x":840,"y":-190,"width":400,"height":187},
-		{"id":"e39c9e324eb43921","type":"file","file":"Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md","x":220,"y":80,"width":400,"height":400},
-		{"id":"74dda98fb1fa3fa1","type":"file","file":"Abwehr_IT-blog/Praktikum/1. - 2.Netzwerkprotokollanalyse mit Wireshark.md","x":220,"y":-540,"width":400,"height":400}
+		{"id":"74dda98fb1fa3fa1","type":"file","file":"Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md","x":220,"y":-540,"width":480,"height":400},
+		{"id":"40f9a838a50a297e","type":"file","file":"Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md","x":220,"y":580,"width":480,"height":480},
+		{"id":"2cfb7802c315349d","type":"file","file":"Abwehr_IT-blog/pdf/84433547__de__Web.png","x":860,"y":-190,"width":400,"height":187},
+		{"id":"e39c9e324eb43921","type":"file","file":"Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md","x":220,"y":-3,"width":480,"height":400}
 	],
 	"edges":[
 		{"id":"ace29eccffdd6790","fromNode":"74dda98fb1fa3fa1","fromSide":"right","toNode":"2cfb7802c315349d","toSide":"left","color":"3"},
