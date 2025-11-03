@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/Themen/2. Beweisaufnahme im Netzwerk.md",
+                "file": "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Beweisaufnahme im Netzwerk"
+              "title": "4. Passwort-Hashes und Sicherheit von Passwörtern"
             }
           }
         ]
@@ -179,6 +179,7 @@
   },
   "active": "9d4fc2fdd3cd54bb",
   "lastOpenFiles": [
+    "Abwehr_IT-blog/Themen/2. Beweisaufnahme im Netzwerk.md",
     "Abwehr_IT-blog/Themen/3. Capturing Tools - Wireshark und BPF Syntax.md",
     "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
     "Pasted image 20251103165838.png",
@@ -188,7 +189,6 @@
     "Abwehr_IT-blog/Themen/Pentesting.md",
     "Abwehr_IT-blog/Themen/DNS.md",
     "Abwehr_IT-blog/Themen/Angriffe auf Web app und Services.md",
-    "Abwehr_IT-blog/Themen/2. Beweisaufnahme im Netzwerk.md",
     "Pasted image 20251102114801.png",
     "Pasted image 20251102110954.png",
     "Pasted image 20251102105745.png",
