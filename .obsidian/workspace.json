@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/Themen/4. IP-Traceroute.md",
+                "file": "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. IP-Traceroute"
+              "title": "4. Passwort-Hashes und Sicherheit von Passwörtern"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fdacf473b95f2b8b",
@@ -180,10 +179,10 @@
   },
   "active": "9d4fc2fdd3cd54bb",
   "lastOpenFiles": [
+    "Abwehr_IT-blog/Themen/4. IP-Traceroute.md",
     "Abwehr_IT-blog/Themen/Pentesting.md",
     "Abwehr_IT-blog/Themen/DNS.md",
     "Abwehr_IT-blog/Themen/Angriffe auf Web app und Services.md",
-    "Abwehr_IT-blog/Themen/4. IP-Traceroute.md",
     "Abwehr_IT-blog/Themen/3. Capturing Tools - Wireshark und BPF Syntax.md",
     "Abwehr_IT-blog/Themen/2. Beweisaufnahme im Netzwerk.md",
     "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
