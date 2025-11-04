@@ -11,17 +11,12 @@
             "id": "9d4fc2fdd3cd54bb",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "image",
               "state": {
-                "file": "Abwehr_IT-blog/Overview.canvas",
-                "viewState": {
-                  "x": 350,
-                  "y": 466.9829618046161,
-                  "zoom": -0.8443982640283265
-                }
+                "file": "Abwehr_IT-blog/pdf/Pasted image 20251104125152.png"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Overview"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251104125152"
             }
           }
         ]
@@ -180,21 +175,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d4fc2fdd3cd54bb",
+  "active": "0dcd58796df96d39",
   "lastOpenFiles": [
     "Abwehr_IT-blog/Themen/4. IP-Traceroute.md",
-    "Pasted image 20251104125152.png",
-    "Pasted image 20251104124704.png",
-    "Pasted image 20251104124312.png",
-    "Pasted image 20251104124130.png",
-    "Pasted image 20251104123930.png",
+    "Abwehr_IT-blog/Overview.canvas",
+    "Abwehr_IT-blog/pdf/Pasted image 20251104125152.png",
+    "Abwehr_IT-blog/pdf/Pasted image 20251104124704.png",
+    "Abwehr_IT-blog/pdf/Pasted image 20251104124312.png",
+    "Abwehr_IT-blog/pdf/Pasted image 20251104124130.png",
+    "Abwehr_IT-blog/pdf/Pasted image 20251104123930.png",
     "Abwehr_IT-blog/Themen/3. Capturing Tools - Wireshark und BPF Syntax.md",
-    "Pasted image 20251104105429.png",
+    "Abwehr_IT-blog/pdf/Pasted image 20251104105429.png",
     "Abwehr_IT-blog/Themen/Angriffe auf Web app und Services.md",
     "Abwehr_IT-blog/Themen/IDS, SIEM.md",
     "Abwehr_IT-blog/Themen/1. Begriffsbestimmung und Vorgehensmodell.md",
-    "Abwehr_IT-blog/Overview.canvas",
-    "Pasted image 20251103182130.png",
+    "Abwehr_IT-blog/pdf/Pasted image 20251103182130.png",
     "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
     "Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md",
     "Abwehr_IT-blog/Themen/2. Beweisaufnahme im Netzwerk.md",
