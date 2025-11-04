@@ -11,16 +11,6 @@
             "id": "9d4fc2fdd3cd54bb",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "5d96a9a0eb8543ae",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "Abwehr_IT-blog/Themen/4. IP-Traceroute.md",
@@ -31,8 +21,7 @@
               "title": "4. IP-Traceroute"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,10 +177,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5d96a9a0eb8543ae",
+  "active": "9d4fc2fdd3cd54bb",
   "lastOpenFiles": [
-    "Abwehr_IT-blog/Themen/3. Capturing Tools - Wireshark und BPF Syntax.md",
     "Abwehr_IT-blog/Themen/4. IP-Traceroute.md",
+    "Abwehr_IT-blog/Themen/3. Capturing Tools - Wireshark und BPF Syntax.md",
     "Pasted image 20251104105429.png",
     "Abwehr_IT-blog/Themen/Angriffe auf Web app und Services.md",
     "Abwehr_IT-blog/Themen/IDS, SIEM.md",
