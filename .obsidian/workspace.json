@@ -11,12 +11,14 @@
             "id": "9d4fc2fdd3cd54bb",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/pdf/Pasted image 20251104125152.png"
+                "file": "Abwehr_IT-blog/Themen/4. IP-Traceroute.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251104125152"
+              "icon": "lucide-file",
+              "title": "4. IP-Traceroute"
             }
           }
         ]
@@ -175,11 +177,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0dcd58796df96d39",
+  "active": "9d4fc2fdd3cd54bb",
   "lastOpenFiles": [
+    "Abwehr_IT-blog/pdf/Pasted image 20251104125152.png",
     "Abwehr_IT-blog/Themen/4. IP-Traceroute.md",
     "Abwehr_IT-blog/Overview.canvas",
-    "Abwehr_IT-blog/pdf/Pasted image 20251104125152.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251104124704.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251104124312.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251104124130.png",
