@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/Themen/4. IP-Traceroute.md",
+                "file": "Abwehr_IT-blog/Themen/2. Beweisaufnahme im Netzwerk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. IP-Traceroute"
+              "title": "2. Beweisaufnahme im Netzwerk"
             }
           }
         ]
@@ -180,10 +180,10 @@
   "active": "9d4fc2fdd3cd54bb",
   "lastOpenFiles": [
     "Abwehr_IT-blog/Overview.canvas",
+    "Abwehr_IT-blog/Themen/3. Capturing Tools - Wireshark und BPF Syntax.md",
+    "Abwehr_IT-blog/Themen/4. IP-Traceroute.md",
     "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
     "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
-    "Abwehr_IT-blog/Themen/4. IP-Traceroute.md",
-    "Abwehr_IT-blog/Themen/3. Capturing Tools - Wireshark und BPF Syntax.md",
     "Abwehr_IT-blog/pdf/Pasted image 20251104125152.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251104124704.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251104124312.png",
