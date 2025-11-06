@@ -107,10 +107,12 @@
  >>- Pakete die ein System sieht aber ein anderes nicht.
  >>- Fehlerhafte fragmentierung
  >>- Ausnutzen von Schawachstellen der NIDS (Network Intrusion Detection Systeme)
- >>- 
- 
-
-
+ >
+ >>[!danger] Insertion Attacke
+ >>- Einfügen von Paketen, die vom Endpunktserver ignoriert, aber von IDS als gültige Pakete abgerufen werden. Mit Insertionsangriffen kann man die Signaturanalyse unterbinden und so Angriffe an einem IDS vorbeiführen.
+ >>
+ >>![[Pasted image 20251106102358.png]]
+ >>
  Beispiel:
  >>- Die Signatur  des PHP-Angriffs könnte so ähnlich sein:
  >> 	 - `GET /cgi-bin/phf`
