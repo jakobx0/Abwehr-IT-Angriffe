@@ -97,7 +97,17 @@
  >>- **Lokal Spoofing:**
  >>	- Angreifer befindet sich im selben Subnetz, durch Packet-Analyzer Trustet IP herausfinden. Bleibt das Problem der Packetnumbers.
  >>- **BlindSpoofing:**
- >>	- 
+ >>	- Angreifer befindet sich nicht im selben Subnetz. Er hat keine Informationen über die Pakete und muss alle Parameter raten. Bei modernen Betriebssystemen sehr schwierig wegen Randomized TCP Sequence Nummern. Dazumal der Empfänger immer eine Rückmeldung an das Opfer gibt und nicht den MitM der die Anfragen fälscht.
+ >>
+ >>Fragmentierung bei IPv4 und deren Wiederherstellung 
+ >>
+ >>![[Pasted image 20251106101856.png]]
+ >>
+ >>Ausnutzen der Fragmentierung:
+ >>- Pakete die ein System sieht aber ein anderes nicht.
+ >>- Fehlerhafte fragmentierung
+ >>- Ausnutzen von Schawachstellen der NIDS (Network Intrusion Detection Systeme)
+ >>- 
  
 
 
