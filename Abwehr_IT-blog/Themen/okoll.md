@@ -85,8 +85,23 @@
  >>Mitteilung der besseren IP Route an Sender:
  >>
  >>![[Pasted image 20251105130024.png]]
- >>
- >>Beispiel:
+ 
+ >[!abstract] Angriffe auf IPv4 und ICMP-Typen
+ >Schwächen des IP
+ >- Das Internet Protokoll ist vor allem verwundbar weil es
+ >	- verbindungslos ist
+ >	- keine Authentisierung bietet
+ >
+ >>[!danger] IP Spoofing:
+ >>IP Spoofing erfolgt durch das Fälschen der Absenderadresse eines IP Pakets in zwei Arten:
+ >>- **Lokal Spoofing:**
+ >>	- Angreifer befindet sich im selben Subnetz, durch Packet-Analyzer Trustet IP herausfinden. Bleibt das Problem der Packetnumbers.
+ >>- **BlindSpoofing:**
+ >>	- 
+ 
+
+
+ Beispiel:
  >>- Die Signatur  des PHP-Angriffs könnte so ähnlich sein:
  >> 	 - `GET /cgi-bin/phf`
  >> - Wir können zusätzlich Pakete einfügen, so dass das IDS die Pakete als:
@@ -105,12 +120,16 @@
  >>![[Pasted image 20251106095747.png]]
  >>
  >>Beispiel: Folgendes Paket
- >>- `GET /cgi-bin/phf?`
- >>kann als 
- >>- `GET /gin/f ` 
- 
- 
- 
+ >>- `GET /cgi-bin/phf?` kann als 
+ >>- `GET /gin/f ` bei der NIDS Erkennung erkannt werden, während das vollständige
+ >>- `GET /cgi-bin/phf?` beim Endpunkt ankommt 
+ >>
+ >>Techniken:
+ >>- Fragmentpakete nicht in der richtigen Reihenfolge versenden. Einige IDS gehen davon aus, dass die Fragmentpakete in der richtigen Reihenfolge ankommen. Sie setzen die Daten einfach sequentiell wieder zusammen, sobald das markierte letzte Fragment eintrifft. Das Versenden von Fragmentpaketen in falscher Reihenfolge kann die IDS nicht korrekt zusammensetzen.
+ >>- Einige IDS können jeweils nur eine Host- / Port-Verbindung verfolgen. Überfluten Sie zuerst den Zielport mit nicht vorhandenem SYN- Paketen, damit diese IDS anschließend die attackierende Verbindung ignoriert.
+ >
+ >>[!danger] Teardrop Attacke:
+ >>Angeifer nutzt falsche Offsets bei Fragmenten die zu Überschneidunge
  
  
 
