@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/Themen/4. Capturing Tools - Wireshark und BPF Syntax.md",
+                "file": "Abwehr_IT-blog/Themen/5. IP-Traceroute.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Capturing Tools - Wireshark und BPF Syntax"
+              "title": "5. IP-Traceroute"
             }
           },
           {
@@ -206,9 +206,10 @@
   },
   "active": "9d4fc2fdd3cd54bb",
   "lastOpenFiles": [
+    "Pasted image 20251106120800.png",
+    "Abwehr_IT-blog/Themen/4. Capturing Tools - Wireshark und BPF Syntax.md",
     "Abwehr_IT-blog/Themen/3. ARP und WiFi.md",
     "Abwehr_IT-blog/Overview.canvas",
-    "Abwehr_IT-blog/Themen/4. Capturing Tools - Wireshark und BPF Syntax.md",
     "Abwehr_IT-blog/Themen/5. IP-Traceroute.md",
     "Abwehr_IT-blog/Themen/2. Beweisaufnahme im Netzwerk.md",
     "Abwehr_IT-blog/Themen/Angriffe auf Web app und Services.md",
