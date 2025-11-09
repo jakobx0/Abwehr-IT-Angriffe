@@ -7,7 +7,7 @@
 		{"id":"2cfb7802c315349d","type":"file","file":"Abwehr_IT-blog/pdf/84433547__de__Web.png","x":860,"y":-190,"width":400,"height":187},
 		{"id":"e39c9e324eb43921","type":"file","file":"Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md","x":220,"y":20,"width":480,"height":400},
 		{"id":"2e73bab6496a929a","type":"file","file":"Abwehr_IT-blog/Themen/5. IP-Traceroute.md","x":-560,"y":1280,"width":465,"height":400},
-		{"id":"69a00b77e5704082","x":-560,"y":320,"width":465,"height":400,"type":"file","file":"Abwehr_IT-blog/Themen/3. ARP und WiFi.md"},
+		{"id":"69a00b77e5704082","type":"file","file":"Abwehr_IT-blog/Themen/3. ARP und WiFi.md","x":-560,"y":320,"width":465,"height":400},
 		{"id":"63d6977388780c78","type":"file","file":"Abwehr_IT-blog/Themen/4. Capturing Tools - Wireshark und BPF Syntax.md","x":-560,"y":820,"width":465,"height":400}
 	],
 	"edges":[
