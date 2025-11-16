@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/Themen/7. DNS.md",
+                "file": "Abwehr_IT-blog/Themen/6. UDP TCP Port Scanning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. DNS"
+              "title": "6. UDP TCP Port Scanning"
             }
           },
           {
@@ -205,6 +205,7 @@
   },
   "active": "9d4fc2fdd3cd54bb",
   "lastOpenFiles": [
+    "Abwehr_IT-blog/Themen/7. TCP Hijacking Tools + DNS.md",
     "Abwehr_IT-blog/Themen/6. UDP TCP Port Scanning.md",
     "Abwehr_IT-blog/Themen/5. IP-Traceroute.md",
     "Abwehr_IT-blog/Themen/Angriffe auf Web app und Services.md",
@@ -214,7 +215,6 @@
     "Abwehr_IT-blog/Themen/Proxy und Burp.md",
     "Abwehr_IT-blog/Themen/Pentesting.md",
     "Abwehr_IT-blog/Themen/IDS, SIEM.md",
-    "Abwehr_IT-blog/Themen/7. DNS.md",
     "Pasted image 20251116122051.png",
     "Pasted image 20251116114414.png",
     "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
