@@ -25,12 +25,14 @@
             "id": "e469a0e9e8cc92e0",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.3"
+                "file": "Abwehr_IT-blog/Themen/6. UDP TCP Port Scanning.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
+              "icon": "lucide-file",
+              "title": "6. UDP TCP Port Scanning"
             }
           },
           {
