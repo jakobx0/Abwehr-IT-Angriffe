@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "e469a0e9e8cc92e0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
+          },
+          {
             "id": "a2ce7e7d6c659f92",
             "type": "leaf",
             "state": {
@@ -47,7 +59,8 @@
               "title": "Pasted image 20251105125431"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,7 +216,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d4fc2fdd3cd54bb",
+  "active": "e469a0e9e8cc92e0",
   "lastOpenFiles": [
     "Abwehr_IT-blog/Themen/7. TCP Hijacking Tools + DNS.md",
     "Abwehr_IT-blog/Themen/6. UDP TCP Port Scanning.md",
