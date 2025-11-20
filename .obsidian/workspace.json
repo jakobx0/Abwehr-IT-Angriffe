@@ -11,14 +11,17 @@
             "id": "cd3c1b7ac2ea361d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
-                "mode": "source",
-                "source": false
+                "file": "Abwehr_IT-blog/Overview.canvas",
+                "viewState": {
+                  "x": 992.3439527665606,
+                  "y": -41.43215295449058,
+                  "zoom": 1
+                }
               },
-              "icon": "lucide-file",
-              "title": "1.- 2.Netzwerkprotokollanalyse mit Wireshark"
+              "icon": "lucide-layout-dashboard",
+              "title": "Overview"
             }
           }
         ]
@@ -180,6 +183,8 @@
   },
   "active": "cd3c1b7ac2ea361d",
   "lastOpenFiles": [
+    "Abwehr_IT-blog/ISO OSI/Allgemein.md",
+    "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
     "Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md",
     "Abwehr_IT-blog/Themen/7. TCP Hijacking Tools + DNS.md",
     "Abwehr_IT-blog/Themen/6. UDP TCP Port Scanning.md",
@@ -203,7 +208,6 @@
     "Abwehr_IT-blog/Themen/IDS, SIEM.md",
     "Pasted image 20251116122051.png",
     "Pasted image 20251116114414.png",
-    "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
     "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
     "Abwehr_IT-blog/Prüfungsrelevant/Prüfung.md",
     "README.md",
@@ -218,7 +222,6 @@
     "Abwehr_IT-blog/pdf/Graphs",
     "Abwehr_IT-blog/pdf/Screenshot_IO-Graph.pdf",
     "Abwehr_IT-blog/pdf",
-    "Abwehr_IT-blog/ISO OSI/Allgemein.md",
     "Abwehr_IT-blog/ISO OSI",
     "Abwehr_IT-blog",
     "test.md"
