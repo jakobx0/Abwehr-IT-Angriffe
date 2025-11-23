@@ -11,17 +11,14 @@
             "id": "cd3c1b7ac2ea361d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/Overview.canvas",
-                "viewState": {
-                  "x": 1120,
-                  "y": 853.5,
-                  "zoom": 0
-                }
+                "file": "Abwehr_IT-blog/Themen/7. DNS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Overview"
+              "icon": "lucide-file",
+              "title": "7. DNS"
             }
           },
           {
@@ -193,8 +190,8 @@
   },
   "active": "cd3c1b7ac2ea361d",
   "lastOpenFiles": [
-    "Abwehr_IT-blog/Themen/7. DNS.md",
     "Abwehr_IT-blog/Overview.canvas",
+    "Abwehr_IT-blog/Themen/7. DNS.md",
     "Abwehr_IT-blog/Themen/6. UDP TCP Port Scanning.md",
     "Pasted image 20251123150630.png",
     "Pasted image 20251123150553.png",
