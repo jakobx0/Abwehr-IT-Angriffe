@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e0c254915770d270",
+        "id": "adf9fe6569c7670b",
         "type": "tabs",
         "children": [
           {
-            "id": "cd3c1b7ac2ea361d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "39dfb0c9d89377f0",
+            "id": "71ef83611968153f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -187,8 +173,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cd3c1b7ac2ea361d",
+  "active": "71ef83611968153f",
   "lastOpenFiles": [
+    "README.md",
     "Abwehr_IT-blog/pdf/Pasted image 20251116114414.png",
     "Abwehr_IT-blog/Themen/7. DNS.md",
     "Abwehr_IT-blog/pdf/Pasted image 20251123160940.png",
@@ -205,7 +192,6 @@
     "Abwehr_IT-blog/ISO OSI/Allgemein.md",
     "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
     "Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md",
-    "Abwehr_IT-blog/pdf/Pasted image 20251120131017.png",
     "Abwehr_IT-blog/Themen/5. IP-Traceroute.md",
     "Abwehr_IT-blog/Themen/4. Capturing Tools - Wireshark und BPF Syntax.md",
     "Abwehr_IT-blog/Themen/3. ARP und WiFi.md",
@@ -218,7 +204,6 @@
     "Abwehr_IT-blog/Themen/IDS, SIEM.md",
     "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
     "Abwehr_IT-blog/Prüfungsrelevant/Prüfung.md",
-    "README.md",
     "Abwehr_IT-blog/Themen/2. Beweisaufnahme im Netzwerk.md",
     "Abwehr_IT-blog/Themen/1. Begriffsbestimmung und Vorgehensmodell.md",
     "Abwehr_IT-blog/Themen",
