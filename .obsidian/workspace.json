@@ -11,12 +11,14 @@
             "id": "cd3c1b7ac2ea361d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/pdf/Pasted image 20251116114414.png"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251116114414"
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
@@ -185,8 +187,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0dcd58796df96d39",
+  "active": "cd3c1b7ac2ea361d",
   "lastOpenFiles": [
+    "Abwehr_IT-blog/pdf/Pasted image 20251116114414.png",
     "Abwehr_IT-blog/Themen/7. DNS.md",
     "Abwehr_IT-blog/pdf/Pasted image 20251123160940.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251123155540.png",
