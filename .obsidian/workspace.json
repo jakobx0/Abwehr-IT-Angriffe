@@ -11,10 +11,14 @@
             "id": "71ef83611968153f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Praktikum 6.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Praktikum 6"
             }
           }
         ]
@@ -175,6 +179,7 @@
   },
   "active": "71ef83611968153f",
   "lastOpenFiles": [
+    "Praktikum 6.md",
     "README.md",
     "Abwehr_IT-blog/pdf/Pasted image 20251116114414.png",
     "Abwehr_IT-blog/Themen/7. DNS.md",
