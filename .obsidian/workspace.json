@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/Praktikum/6 Portscann.md",
+                "file": "Abwehr_IT-blog/Praktikum/6.Portscann.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6 Portscann"
+              "title": "6.Portscann"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red Team.md",
+                "file": "Abwehr_IT-blog/Themen/7. DNS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Red Team"
+              "title": "7. DNS"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fdacf473b95f2b8b",
@@ -178,7 +179,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,13 +196,14 @@
   },
   "active": "c69f4c1c2a1f65c0",
   "lastOpenFiles": [
-    "Abwehr_IT-blog/Praktikum/6 Portscann.md",
-    "Red Team.md",
+    "Abwehr_IT-blog/Themen/Angriffe auf Web app und Services.md",
+    "Abwehr_IT-blog/Themen/7. DNS.md",
+    "Abwehr_IT-blog/Praktikum/7. Red Team Assessment.md",
+    "Abwehr_IT-blog/Praktikum/6.Portscann.md",
     "Pasted image 20251124100405.png",
     "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
     "README.md",
     "Abwehr_IT-blog/pdf/Pasted image 20251116114414.png",
-    "Abwehr_IT-blog/Themen/7. DNS.md",
     "Abwehr_IT-blog/pdf/Pasted image 20251123160940.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251123155540.png",
     "Abwehr_IT-blog/Overview.canvas",
@@ -216,7 +219,6 @@
     "Abwehr_IT-blog/Themen/5. IP-Traceroute.md",
     "Abwehr_IT-blog/Themen/4. Capturing Tools - Wireshark und BPF Syntax.md",
     "Abwehr_IT-blog/Themen/3. ARP und WiFi.md",
-    "Abwehr_IT-blog/Themen/Angriffe auf Web app und Services.md",
     "Abwehr_IT-blog/Themen/Snort.md",
     "Abwehr_IT-blog/Themen/Sensoren Netflow.md",
     "Abwehr_IT-blog/Themen/Routing.md",
