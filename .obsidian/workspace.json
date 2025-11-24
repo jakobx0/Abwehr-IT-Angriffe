@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "6 Portscann"
             }
+          },
+          {
+            "id": "c69f4c1c2a1f65c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Red Team.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Red Team"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,11 +192,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "71ef83611968153f",
+  "active": "c69f4c1c2a1f65c0",
   "lastOpenFiles": [
+    "Abwehr_IT-blog/Praktikum/6 Portscann.md",
+    "Red Team.md",
     "Pasted image 20251124100405.png",
     "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
-    "Abwehr_IT-blog/Praktikum/6 Portscann.md",
     "README.md",
     "Abwehr_IT-blog/pdf/Pasted image 20251116114414.png",
     "Abwehr_IT-blog/Themen/7. DNS.md",
@@ -195,7 +211,6 @@
     "Abwehr_IT-blog/pdf/Pasted image 20251123145205.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251123145107.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251123141932.png",
-    "Abwehr_IT-blog/pdf/Pasted image 20251120141831.png",
     "Abwehr_IT-blog/ISO OSI/Allgemein.md",
     "Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md",
     "Abwehr_IT-blog/Themen/5. IP-Traceroute.md",
