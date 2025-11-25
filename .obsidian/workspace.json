@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/Themen/8. Routing.md",
+                "file": "Abwehr_IT-blog/Praktikum/7. Red Team Assessment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. Routing"
+              "title": "7. Red Team Assessment"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fdacf473b95f2b8b",
@@ -196,8 +195,8 @@
   },
   "active": "c69f4c1c2a1f65c0",
   "lastOpenFiles": [
-    "Abwehr_IT-blog/Themen/7. DNS.md",
     "Abwehr_IT-blog/Themen/8. Routing.md",
+    "Abwehr_IT-blog/Themen/7. DNS.md",
     "Abwehr_IT-blog/Themen/Snort.md",
     "Abwehr_IT-blog/Themen/Sensoren Netflow.md",
     "Abwehr_IT-blog/Themen/Proxy und Burp.md",
