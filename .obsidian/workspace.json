@@ -39,17 +39,14 @@
             "id": "21aab9041caaebc0",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/Overview.canvas",
-                "viewState": {
-                  "x": 390,
-                  "y": 892.5,
-                  "zoom": -1.5454714497039888
-                }
+                "file": "Abwehr_IT-blog/Themen/8. Routing.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Overview"
+              "icon": "lucide-file",
+              "title": "8. Routing"
             }
           }
         ],
@@ -211,6 +208,9 @@
   },
   "active": "21aab9041caaebc0",
   "lastOpenFiles": [
+    "Abwehr_IT-blog/Themen/Sensoren Netflow.md",
+    "Abwehr_IT-blog/Themen/Snort.md",
+    "Abwehr_IT-blog/Overview.canvas",
     "Abwehr_IT-blog/pdf/Pasted image 20251125125756.png",
     "Abwehr_IT-blog/Praktikum/5. Master-Keys im Hauptspeicher.md",
     "Abwehr_IT-blog/pdf/Pasted image 20251125124917.png",
@@ -220,8 +220,6 @@
     "Abwehr_IT-blog/Themen/8. Routing.md",
     "Abwehr_IT-blog/Themen/7. DNS.md",
     "Abwehr_IT-blog/Praktikum/7. Red Team Assessment.md",
-    "Abwehr_IT-blog/Themen/Snort.md",
-    "Abwehr_IT-blog/Themen/Sensoren Netflow.md",
     "Abwehr_IT-blog/Themen/Proxy und Burp.md",
     "Abwehr_IT-blog/Themen/Pentesting.md",
     "Abwehr_IT-blog/Themen/IDS, SIEM.md",
@@ -235,7 +233,6 @@
     "Abwehr_IT-blog/pdf/Pasted image 20251116114414.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251123160940.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251123155540.png",
-    "Abwehr_IT-blog/Overview.canvas",
     "Abwehr_IT-blog/Themen/6. UDP TCP Port Scanning.md",
     "Abwehr_IT-blog/ISO OSI/Allgemein.md",
     "Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md",
