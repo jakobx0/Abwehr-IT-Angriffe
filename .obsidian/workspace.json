@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
+                "file": "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.- 2.Netzwerkprotokollanalyse mit Wireshark"
+              "title": "4. Passwort-Hashes und Sicherheit von Passwörtern"
             }
           }
         ],
@@ -223,6 +223,7 @@
   "active": "97cdef617a4e02dd",
   "lastOpenFiles": [
     "Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md",
+    "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
     "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
     "Abwehr_IT-blog/Themen/8. Routing.md",
     "Abwehr_IT-blog/Praktikum/5. Master-Keys im Hauptspeicher.md",
@@ -243,7 +244,6 @@
     "Abwehr_IT-blog/pdf/Pasted image 20251124112248.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251124112127.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251124100405.png",
-    "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
     "README.md",
     "Abwehr_IT-blog/pdf/Pasted image 20251116114414.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251123160940.png",
