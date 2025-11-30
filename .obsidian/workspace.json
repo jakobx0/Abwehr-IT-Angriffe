@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fdacf473b95f2b8b",
@@ -222,6 +223,7 @@
   },
   "active": "97cdef617a4e02dd",
   "lastOpenFiles": [
+    "Pasted image 20251130145022.png",
     "Pasted image 20251130144829.png",
     "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
     "Abwehr_IT-blog/Praktikum/5. Master-Keys im Hauptspeicher.md",
@@ -248,7 +250,6 @@
     "README.md",
     "Abwehr_IT-blog/pdf/Pasted image 20251116114414.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251123160940.png",
-    "Abwehr_IT-blog/pdf/Pasted image 20251123155540.png",
     "Abwehr_IT-blog/Themen/6. UDP TCP Port Scanning.md",
     "Abwehr_IT-blog/ISO OSI/Allgemein.md",
     "Abwehr_IT-blog/Themen/5. IP-Traceroute.md",
