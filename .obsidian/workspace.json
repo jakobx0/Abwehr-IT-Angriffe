@@ -121,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fdacf473b95f2b8b",
@@ -223,11 +222,11 @@
   },
   "active": "97cdef617a4e02dd",
   "lastOpenFiles": [
-    "Pasted image 20251130145022.png",
-    "Pasted image 20251130144829.png",
     "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
     "Abwehr_IT-blog/Praktikum/5. Master-Keys im Hauptspeicher.md",
     "Abwehr_IT-blog/Praktikum/7. Red Team Assessment.md",
+    "Pasted image 20251130145022.png",
+    "Pasted image 20251130144829.png",
     "Abwehr_IT-blog/Praktikum/6.Portscann.md",
     "Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md",
     "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
@@ -249,7 +248,6 @@
     "Abwehr_IT-blog/pdf/Pasted image 20251124100405.png",
     "README.md",
     "Abwehr_IT-blog/pdf/Pasted image 20251116114414.png",
-    "Abwehr_IT-blog/pdf/Pasted image 20251123160940.png",
     "Abwehr_IT-blog/Themen/6. UDP TCP Port Scanning.md",
     "Abwehr_IT-blog/ISO OSI/Allgemein.md",
     "Abwehr_IT-blog/Themen/5. IP-Traceroute.md",
