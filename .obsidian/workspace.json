@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/Praktikum/7. Red Team Assessment.md",
+                "file": "Abwehr_IT-blog/Themen/9. Proxy und Burp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. Red Team Assessment"
+              "title": "9. Proxy und Burp"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fdacf473b95f2b8b",
@@ -179,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,8 +195,8 @@
   },
   "active": "1fbce9576ba48ba4",
   "lastOpenFiles": [
-    "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
     "Abwehr_IT-blog/Praktikum/7. Red Team Assessment.md",
+    "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
     "Abwehr_IT-blog/Praktikum/6.Portscann.md",
     "Abwehr_IT-blog/Praktikum/5. Master-Keys im Hauptspeicher.md",
     "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
@@ -213,7 +213,7 @@
     "Abwehr_IT-blog/pdf/Pasted image 20251125125756.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251125124917.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251125124740.png",
-    "Abwehr_IT-blog/Themen/Proxy und Burp.md",
+    "Abwehr_IT-blog/Themen/9. Proxy und Burp.md",
     "Abwehr_IT-blog/Themen/Pentesting.md",
     "Abwehr_IT-blog/Themen/IDS, SIEM.md",
     "Abwehr_IT-blog/Themen/Angriffe auf Web app und Services.md",
