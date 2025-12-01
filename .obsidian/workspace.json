@@ -11,12 +11,14 @@
             "id": "79aaab7b51cc5f50",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/pdf/Pasted image 20251130172635.png"
+                "file": "Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251130172635"
+              "icon": "lucide-file",
+              "title": "3. Bitübertragungsschicht im Wi-Fi"
             }
           }
         ]
@@ -176,8 +178,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0dcd58796df96d39",
+  "active": "79aaab7b51cc5f50",
   "lastOpenFiles": [
+    "Abwehr_IT-blog/pdf/Pasted image 20251130172635.png",
     "Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md",
     "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
     "Abwehr_IT-blog/Praktikum/5. Master-Keys im Hauptspeicher.md",
@@ -187,7 +190,6 @@
     "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
     "Abwehr_IT-blog/Themen/3. ARP und WiFi.md",
     "Abwehr_IT-blog/Praktikum/7. Red Team Assessment.md",
-    "Abwehr_IT-blog/pdf/Pasted image 20251130172635.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251130161804.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251130145022.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251130144829.png",
