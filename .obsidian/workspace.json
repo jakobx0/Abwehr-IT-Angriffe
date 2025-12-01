@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/Themen/9. Proxy und Burp.md",
+                "file": "Abwehr_IT-blog/Themen/Angriffe auf Web app und Services.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. Proxy und Burp"
+              "title": "Angriffe auf Web app und Services"
             }
           }
         ]
@@ -180,12 +180,12 @@
   },
   "active": "79aaab7b51cc5f50",
   "lastOpenFiles": [
+    "Abwehr_IT-blog/Themen/9. Proxy und Burp.md",
     "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
     "Abwehr_IT-blog/Praktikum/6.Portscann.md",
     "Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md",
     "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
     "Abwehr_IT-blog/Themen/3. ARP und WiFi.md",
-    "Abwehr_IT-blog/Themen/9. Proxy und Burp.md",
     "Abwehr_IT-blog/Praktikum/7. Red Team Assessment.md",
     "Abwehr_IT-blog/Praktikum/5. Master-Keys im Hauptspeicher.md",
     "Pasted image 20251130172635.png",
