@@ -11,14 +11,12 @@
             "id": "79aaab7b51cc5f50",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md",
-                "mode": "source",
-                "source": false
+                "file": "Abwehr_IT-blog/pdf/Pasted image 20251130172635.png"
               },
-              "icon": "lucide-file",
-              "title": "3. Bitübertragungsschicht im Wi-Fi"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251130172635"
             }
           }
         ]
@@ -178,21 +176,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "79aaab7b51cc5f50",
+  "active": "0dcd58796df96d39",
   "lastOpenFiles": [
+    "Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md",
     "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
     "Abwehr_IT-blog/Praktikum/5. Master-Keys im Hauptspeicher.md",
     "Abwehr_IT-blog/Themen/10. Angriffe auf Web app und Services.md",
     "Abwehr_IT-blog/Themen/9. Proxy und Burp.md",
     "Abwehr_IT-blog/Praktikum/6.Portscann.md",
-    "Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md",
     "Abwehr_IT-blog/Praktikum/1.- 2.Netzwerkprotokollanalyse mit Wireshark.md",
     "Abwehr_IT-blog/Themen/3. ARP und WiFi.md",
     "Abwehr_IT-blog/Praktikum/7. Red Team Assessment.md",
-    "Pasted image 20251130172635.png",
-    "Pasted image 20251130161804.png",
-    "Pasted image 20251130145022.png",
-    "Pasted image 20251130144829.png",
+    "Abwehr_IT-blog/pdf/Pasted image 20251130172635.png",
+    "Abwehr_IT-blog/pdf/Pasted image 20251130161804.png",
+    "Abwehr_IT-blog/pdf/Pasted image 20251130145022.png",
+    "Abwehr_IT-blog/pdf/Pasted image 20251130144829.png",
     "Abwehr_IT-blog/Themen/8. Routing.md",
     "Abwehr_IT-blog/Themen/7. DNS.md",
     "Abwehr_IT-blog/Themen/Sensoren Netflow.md",
