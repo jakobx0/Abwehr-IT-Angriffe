@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abwehr_IT-blog/Themen/9. Proxy und Burp.md",
+                "file": "Abwehr_IT-blog/Praktikum/3. Bitübertragungsschicht im Wi-Fi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. Proxy und Burp"
+              "title": "3. Bitübertragungsschicht im Wi-Fi"
             }
           }
         ],
@@ -195,6 +195,8 @@
   },
   "active": "1fbce9576ba48ba4",
   "lastOpenFiles": [
+    "Abwehr_IT-blog/Themen/3. ARP und WiFi.md",
+    "Abwehr_IT-blog/Themen/9. Proxy und Burp.md",
     "Abwehr_IT-blog/Praktikum/7. Red Team Assessment.md",
     "Abwehr_IT-blog/Praktikum/4. Passwort-Hashes und Sicherheit von Passwörtern.md",
     "Abwehr_IT-blog/Praktikum/6.Portscann.md",
@@ -213,7 +215,6 @@
     "Abwehr_IT-blog/pdf/Pasted image 20251125125756.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251125124917.png",
     "Abwehr_IT-blog/pdf/Pasted image 20251125124740.png",
-    "Abwehr_IT-blog/Themen/9. Proxy und Burp.md",
     "Abwehr_IT-blog/Themen/Pentesting.md",
     "Abwehr_IT-blog/Themen/IDS, SIEM.md",
     "Abwehr_IT-blog/Themen/Angriffe auf Web app und Services.md",
@@ -225,7 +226,6 @@
     "Abwehr_IT-blog/ISO OSI/Allgemein.md",
     "Abwehr_IT-blog/Themen/5. IP-Traceroute.md",
     "Abwehr_IT-blog/Themen/4. Capturing Tools - Wireshark und BPF Syntax.md",
-    "Abwehr_IT-blog/Themen/3. ARP und WiFi.md",
     "Abwehr_IT-blog/Prüfungsrelevant/Prüfung.md",
     "Abwehr_IT-blog/Themen/2. Beweisaufnahme im Netzwerk.md",
     "Abwehr_IT-blog/Themen/1. Begriffsbestimmung und Vorgehensmodell.md",
