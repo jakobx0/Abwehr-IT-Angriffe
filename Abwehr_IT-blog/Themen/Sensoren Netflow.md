@@ -1,11 +1,12 @@
 #### Network analysis
 - erkennen von Netzwerkanomalien
+	- z.B lang andauernde ssh Verbindung 
 #### Data Driven Network Analysis
 - Ziel: Daten sammeln
 - wichtige daten rausfilten und Bedrohungen erkennen
 	- Auswertung der Massendaten ist ein großes Problem
 #### Netzwerksensoren
-- informationsüberwachung -> Messtellen (Sensoren)-> greifen Daten ab und speichern
+- informationsüberwachung -> Messystellen (Sensoren)-> greifen Daten ab und speichern
 - z.B: Netzwerkmitschnitte, Log Files
 - drei Gesichtspunkte:
 	- Vantage(Blickrichtung)- Platzierung des Sensors innerhalb  eines Netzwerks
