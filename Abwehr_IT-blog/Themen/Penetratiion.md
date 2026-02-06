@@ -3,7 +3,6 @@
 
 > [!warning] Legalität & Rahmen
 > Ein Pentest braucht **explizite Genehmigung**, klare **Rahmenbedingungen**, definierte **Zeiträume** und ein **Notfall-/Störungsprozedere**.
-
 ## Begriffe & Rollen
 > [!note] Begriffsklärung
 > **Penetration Tester / Ethical Hacker** testen Systeme kontrolliert im Auftrag. Im Team-Setup: **Red Team** (Angriff), **Blue Team** (Verteidigung).
