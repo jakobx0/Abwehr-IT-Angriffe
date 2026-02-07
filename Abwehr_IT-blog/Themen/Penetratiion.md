@@ -62,7 +62,6 @@
 > [!tip] Zusatz
 > Unbekannte Ports werden manuell verifiziert (z.B. Netcat). SSL-Dienste separat prüfen.
 
-![[pdf/14_pentesting_gekuerzt/slide-08.png]]
 ![[pdf/14_pentesting_gekuerzt/slide-09.png]]
 ![[pdf/14_pentesting_gekuerzt/slide-10.png]]
 ![[pdf/14_pentesting_gekuerzt/slide-11.png]]
